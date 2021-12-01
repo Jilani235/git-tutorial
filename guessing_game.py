@@ -7,7 +7,7 @@ import random
 def guess_loop():
     # This is the number the user will have to guess, chosen randomly in between 1 and 100
     number_to_guess = random.randint(1, 100)
-    print("J'ai un nombre en tête. Peut-tu le trouver ?"))
+    print(("J'ai un nombre en tête. Peut-tu le trouver ?"))
 
     # Replay the question until the user finds the correct number
     while True:
